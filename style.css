@@ -13,7 +13,7 @@
 }
 .nav-item a{
      
-   font-family: 'Anton', sans-serif;
+    font-family: 'Anton', sans-serif;
     font-weight:"bolder";
     font-size: smaller;
     color:white;
@@ -74,7 +74,7 @@
   .img-2{
     display: none;
   }
-  @media (max-width:992px){
+   @media (min-width:415px) and (max-width:992px){
     .brand-ad-img{
         display: none;
     }
@@ -87,40 +87,60 @@
         max-width:177px;
         height:auto;
     }
-    .video-controler{
-        margin-top:5;
-    }
+    
     .section-1{
-          height: 800px;
+          max-height: 800px;
     }
     .brand-title{
         font-size:2em;
     }
- 
-    } 
-    .video-controler{
-        padding-top:20px;
+    
+     .video-preview{
+        padding-top:400px;
+        width:100%;
+        height:auto; 
+       }
+.brand-motto2{
+        font-size: 30px;
+        padding-top:15vh;
+}
+.img-3{
+        padding-top:10vh;
+        height:100px;
+        
+}
+}
+
+@media (min-width:278px) and (max-width:415px){
+    .video-preview{
+        padding-top:40px;
+        width:100%;
+        height:auto;
     }
-    
-    
-    .brand-motto{
+    .brand-title{
+
         font-size: 2em;
+    }
+}
+  @media(min-width:993px) {
+        .video-preview{
+                padding-top:50px;
+                width:80%;
+                height:auto; 
+               }
+        .brand-motto2{
+                font-size: 30px;
+                padding-top:15vh;
+                /* padding-left:; */
+        }
+        .img-3{
+                padding-top:10vh;
+                height:100px;
+                
+        } 
         
     }
-  
-/* .brand-ad-img{
-        margin-left: 188px;
-        width: 561px;
-  height:600px;
- } */
-
- .video-preview{
-    
-    width:80%;
-    height:400px;
-    margin-top: 86px;
-    
- }
+ 
  .brand-motto{
     font-size: 4em;
     width:300;
@@ -130,21 +150,53 @@
     font-size: 1.5em;
     font-family: 'Anton', sans-serif;
  }
-
-
- /* @media (max-width:992px) {
-    .video-preview{
-        
-        width: 100%;
-    }
-    .video-controler{
-        
-        padding-left:0px;
-    }
-    .img2{
-        display:block;
-        width:100%;
-        height:400px;
+.brand-motto2{
+        color: #009b4e;
+        font-size:50px;
+        font-family:'Anton', sans-serif;
+        padding-left: 6vw;
+        padding-top:10vh;
 }
+.img-3{
+        height: auto;
+        max-width:100%;
+}
+.footer{
+        background-color: #009b4e;
+        margin-top:0rem;
+}
+.brand-logo2{
+    height: 100px;
+    width:180px;
+   padding-left: 50px;
+}
+.social-linkfooter{
+    list-style-type:none;
+    display: flex;
+    flex-direction: coloumn;
+    
+}
+.social-linkfooter-heading{
+font-family:'Anton', sans-serif;
+color:white;
+}
+ .footer-brand-details{
+    font-family:'Anton', sans-serif;
+    color:white;
+    line-height: 1vh;
+    margin-top: 21px;
+ }
+ .copyright{
+    margin-left:300px;
+    font-family:'Anton', sans-serif;
+    color: white;
+ } 
+ 
+ @media(max-width:576px){
+      
+    .social-linkfooter{
 
- }  */
+        margin-bottom: 10px;
+    }
+}
+  
